@@ -1,3 +1,4 @@
+# 구구단 만들기
 G = int(input())
 
 for i in range(9):

@@ -2,15 +2,9 @@
 import numpy as np # 넘파이 패키지 임포트
 
 """
-그냥
+그냥 import numpy 로 하면 사용할 때 numpy로 호출해야 하나
 
-import numpy
-
-로 하면 사용할 때 numpy로 호출해야 하나
-
-import numpy as np
-
-로 하면 np로 호출함
+import numpy as np 로 하면 np로 호출함
 """
 
 a = np.array([1, 2, 3, 4, 5]) # 리스트 []를 배열로 변환해서 적용

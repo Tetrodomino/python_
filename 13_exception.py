@@ -55,3 +55,13 @@ except:
 finally:
     f.close()
 
+
+# try-else
+# try에서 오류가 발생하지 않아야 실행
+    
+try:
+    a = 0
+except:
+    print('에러 발생')
+else:
+    print('에러 미발생')

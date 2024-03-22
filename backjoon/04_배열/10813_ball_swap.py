@@ -7,9 +7,20 @@ for i in range(N):
 
 for i in range(M):
     a, b = map(int, input().split())
-    temp = basket[a - 1]
-    basket[a - 1] = basket[b - 1]
-    basket[b - 1] = temp
+    if a == b:
+        continue
+
+    c = round((b - a) / 2.0)
+    print(c)
+
+    for k in range(c):
+        temp = basket[a + k]
+        basket[a + k] = basket[b - k]
+        basket[b - k] = temp
+
+    for i in range(len(basket)):
+        print(basket[i], end=" ")
+
 
 for i in range(len(basket)):
     print(basket[i], end=" ")

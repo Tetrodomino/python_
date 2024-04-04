@@ -55,5 +55,8 @@ axis 0이면 a를 평평한 판에 깔고 b를 아래에 두는 식으로 추가
 https://everyday-image-processing.tistory.com/87
 """
 
-""" r_([a, b]) : 
-"""
+""" r_[a, b] : 기능은 hstack과 비슷, 소괄호가 아닌 대괄호를 사용함에 주의 """
+
+""" tile(a, n) : 배열 a를 n회 반복하여 연결 """
+a = np.array([1, 2, 3])
+print(np.tile(a, 3)) # [1 2 3 1 2 3 1 2 3]

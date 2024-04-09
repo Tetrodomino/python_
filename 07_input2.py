@@ -5,3 +5,6 @@ num1 = int(input("숫자를 입력하십시오: "))
 num2 = int(input("숫자를 입력하십시오: "))
 
 print(num1 + num2)
+
+# 리스트로 입력받기
+point = list(map(int, input().split())) 
